@@ -1,0 +1,88 @@
+
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#292E2C">
+  <meta name="description" content="ВОЛЯ — проект поддержки людей, которые хотят вернуть контроль над своей жизнью и отказаться от азартных игр.">
+  <title>ВОЛЯ — твоя жизнь. Твои решения. Твоя воля.</title>
+  <style>
+    :root{--white:#fff;--graphite:#292e2c;--green:#387d55;--green-dark:#286341;--light:#e9efea;--muted:#65716a;--line:#dce3dd;--bg:#f7f9f7;--radius:20px;--shadow:0 14px 40px rgba(28,45,34,.08)}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--graphite);font:16px/1.6 Inter,Manrope,system-ui,-apple-system,"Segoe UI",sans-serif}a{color:inherit}button{font:inherit}.wrap{width:min(1120px,calc(100% - 40px));margin:auto}.nav{height:76px;display:flex;align-items:center;justify-content:space-between;gap:20px}.brand{font-size:25px;font-weight:850;letter-spacing:.08em;text-decoration:none}.brand span{color:var(--green)}.navlinks{display:flex;gap:24px;font-size:14px;color:#56615a}.navlinks a{text-decoration:none}.navlinks a:hover{color:var(--green)}.nav-cta,.btn{display:inline-flex;align-items:center;justify-content:center;border:0;border-radius:12px;padding:12px 18px;background:var(--green);color:white;text-decoration:none;font-weight:700;cursor:pointer}.nav-cta:hover,.btn:hover{background:var(--green-dark)}.hero{padding:70px 0 76px;background:linear-gradient(135deg,#fff 0%,#edf3ee 100%);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}.hero-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:54px;align-items:center}.eyebrow{display:inline-flex;align-items:center;gap:8px;color:var(--green-dark);background:#e4eee7;border-radius:99px;padding:7px 12px;font-size:12px;font-weight:800;letter-spacing:.07em;text-transform:uppercase}.dot{width:7px;height:7px;border-radius:50%;background:var(--green)}h1{font-size:clamp(42px,6vw,68px);line-height:1.04;letter-spacing:-.045em;margin:22px 0 18px}h1 em{font-style:normal;color:var(--green)}.lead{font-size:19px;color:#59645d;max-width:610px;margin:0 0 28px}.hero-actions{display:flex;gap:12px;flex-wrap:wrap}.btn.secondary{background:white;color:var(--graphite);border:1px solid var(--line)}.hero-note{font-size:12px;color:var(--muted);margin-top:16px}.panel{background:white;border:1px solid var(--line);border-radius:24px;padding:24px;box-shadow:var(--shadow)}.panel h2{font-size:19px;margin:0 0 6px}.panel p{font-size:14px;color:var(--muted);margin:0 0 18px}.choice{display:block;width:100%;text-align:left;border:1px solid var(--line);border-radius:13px;padding:13px 14px;background:#fff;margin:9px 0;color:var(--graphite);cursor:pointer;font-weight:650}.choice:hover,.choice:focus{border-color:var(--green);background:#f3f8f4;outline:none}.choice small{display:block;color:var(--muted);font-weight:400;margin-top:2px}.section{padding:74px 0}.section-head{max-width:680px;margin-bottom:30px}.kicker{font-size:12px;color:var(--green);font-weight:850;letter-spacing:.12em;text-transform:uppercase}.section h2{font-size:clamp(30px,4vw,42px);line-height:1.15;letter-spacing:-.035em;margin:10px 0}.section-head p{color:var(--muted);margin:0}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{background:white;border:1px solid var(--line);border-radius:var(--radius);padding:24px;box-shadow:0 6px 22px rgba(28,45,34,.035)}.icon{width:44px;height:44px;display:grid;place-items:center;border-radius:13px;background:var(--light);color:var(--green);font-size:21px;margin-bottom:18px}.card h3{font-size:19px;margin:0 0 8px}.card p{font-size:14px;color:var(--muted);margin:0}.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.step{border-top:3px solid var(--green);background:white;border-radius:0 0 16px 16px;padding:20px;border-left:1px solid var(--line);border-right:1px solid var(--line);border-bottom:1px solid var(--line)}.num{font-size:12px;color:var(--green);font-weight:850;letter-spacing:.1em}.step h3{font-size:17px;margin:8px 0}.step p{font-size:13px;color:var(--muted);margin:0}.notice{background:#eef3ef;border:1px solid #d8e4da;border-radius:18px;padding:22px;display:flex;gap:14px;align-items:flex-start}.notice strong{display:block;margin-bottom:4px}.notice p{font-size:14px;color:#59645d;margin:0}.footer{background:var(--graphite);color:white;padding:36px 0}.footer-inner{display:flex;justify-content:space-between;gap:24px;align-items:flex-start}.footer p{max-width:570px;color:#c3cdc6;font-size:13px;margin:8px 0 0}.footer a{color:#dce9df}.tiny{font-size:12px;color:#aebbb2}.toast{position:fixed;left:50%;bottom:22px;transform:translateX(-50%);background:#202925;color:white;padding:13px 18px;border-radius:12px;box-shadow:var(--shadow);max-width:calc(100% - 32px);font-size:14px;display:none;z-index:10}.toast.show{display:block}
+    @media(max-width:800px){.navlinks{display:none}.hero-grid{grid-template-columns:1fr;gap:32px}.hero{padding:48px 0}.cards{grid-template-columns:1fr}.steps{grid-template-columns:1fr 1fr}.section{padding:54px 0}.footer-inner{display:block}.footer-inner .tiny{margin-top:18px}}
+    @media(max-width:480px){.wrap{width:min(100% - 28px,1120px)}.steps{grid-template-columns:1fr}.lead{font-size:17px}.panel{padding:19px}.hero-actions .btn{width:100%}}
+  </style>
+</head>
+<body>
+  <header class="wrap nav">
+    <a class="brand" href="#top" aria-label="ВОЛЯ — главная">ВОЛ<span>Я</span></a>
+    <nav class="navlinks" aria-label="Главная навигация"><a href="#about">О проекте</a><a href="#support">Поддержка</a><a href="#path">Путь восстановления</a></nav>
+    <a class="nav-cta" href="#support">Найти поддержку</a>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="wrap hero-grid">
+        <div>
+          <div class="eyebrow"><span class="dot"></span> Пространство поддержки и восстановления</div>
+          <h1>Твоя жизнь.<br>Твои решения.<br><em>Твоя воля.</em></h1>
+          <p class="lead">Если азартные игры стали занимать слишком много места в жизни, не обязательно справляться в одиночку. Здесь можно начать с одного безопасного шага — без осуждения и давления.</p>
+          <div class="hero-actions"><a class="btn" href="#support">Мне нужна поддержка</a><a class="btn secondary" href="#about">Узнать о проекте</a></div>
+          <p class="hero-note">Базовые материалы проекта планируются бесплатными. ВОЛЯ не заменяет помощь врача или психолога.</p>
+        </div>
+        <aside class="panel" id="support" aria-labelledby="support-title">
+          <h2 id="support-title">Что тебе сейчас ближе?</h2>
+          <p>Выбери вариант — мы покажем подходящий следующий шаг. Ответ не отправляется и не сохраняется.</p>
+          <button class="choice" data-message="Если тянет играть: отложи решение хотя бы на 15 минут, отойди от устройства и свяжись с человеком, которому доверяешь.">Меня тянет играть<small>Нужна поддержка прямо сейчас</small></button>
+          <button class="choice" data-message="После проигрыша важно не пытаться отыграться. Сделай паузу, не пополняй счёт и временно ограничь доступ к платежам и игровым сайтам.">Я проиграл и хочу остановиться<small>Хочу прервать цикл игры</small></button>
+          <button class="choice" data-message="Начни с простого списка: обязательные расходы, доходы, долги и ближайшие платежи. Не пытайся решить всё за один день.">Хочу восстановить финансы<small>Нужен спокойный план</small></button>
+          <button class="choice" data-message="Поддерживай без обвинений и угроз. Говори о конкретных границах, не давай деньги на игру и подумай о поддержке для себя.">Я хочу помочь близкому<small>Не знаю, с чего начать</small></button>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="wrap">
+        <div class="section-head"><div class="kicker">О платформе</div><h2>Не обещаем мгновенных перемен. Помогаем сделать следующий шаг.</h2><p>ВОЛЯ задумана как социальная платформа, которая объединяет проверенные материалы, инструменты самопомощи, поддержку сообщества и понятные маршруты к специалистам.</p></div>
+        <div class="cards">
+          <article class="card"><div class="icon">◎</div><h3>Поддержка в трудный момент</h3><p>Практические действия, которые помогают пережить сильную тягу и не принимать импульсивных решений.</p></article>
+          <article class="card"><div class="icon">↗</div><h3>Восстановление жизни</h3><p>Постепенная работа с привычками, повседневными задачами и финансовой устойчивостью.</p></article>
+          <article class="card"><div class="icon">✳</div><h3>Не в одиночку</h3><p>В перспективе — модерируемое сообщество и проверенные контакты профессиональной помощи.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" style="background:#eef3ef" id="path">
+      <div class="wrap">
+        <div class="section-head"><div class="kicker">Путь восстановления</div><h2>Один шаг за раз</h2><p>У каждого свой темп. Эти этапы — ориентир для самопомощи, а не медицинская программа или гарантия результата.</p></div>
+        <div class="steps">
+          <article class="step"><div class="num">ШАГ 01</div><h3>Остановиться</h3><p>Не пытаться отыграться. Убрать быстрый доступ к игре и платежам.</p></article>
+          <article class="step"><div class="num">ШАГ 02</div><h3>Найти опору</h3><p>Рассказать безопасному человеку и обратиться за профессиональной помощью при необходимости.</p></article>
+          <article class="step"><div class="num">ШАГ 03</div><h3>Навести порядок</h3><p>Спокойно оценить обязательные расходы, долги и ближайшие финансовые задачи.</p></article>
+          <article class="step"><div class="num">ШАГ 04</div><h3>Продолжать</h3><p>Выстраивать устойчивые привычки и заранее готовить план на случай тяги или срыва.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap">
+        <div class="notice"><div class="icon" style="flex:0 0 44px;margin:0">＋</div><div><strong>Если есть непосредственная опасность</strong><p>Если ты или близкий человек можете причинить себе вред либо находитесь в опасности, обратись в местную экстренную службу или ближайшее медицинское учреждение. Онлайн-платформа не является экстренной службой.</p></div></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer-inner"><div><a class="brand" href="#top" style="color:white">ВОЛ<span>Я</span></a><p>Твоя жизнь. Твои решения. Твоя воля.<br>Независимый социальный проект на этапе разработки. Название рабочее и требует проверки правовой доступности.</p></div><div class="tiny">© ВОЛЯ · Концепция MVP · 2026</div></div>
+  </footer>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script>
+    const toast=document.getElementById('toast');let hide;
+    document.querySelectorAll('.choice').forEach(button=>button.addEventListener('click',()=>{
+      toast.textContent=button.dataset.message;
+      toast.classList.add('show');
+      clearTimeout(hide);hide=setTimeout(()=>toast.classList.remove('show'),9000);
+    }));
+  </script>
+</body>
+</html>
